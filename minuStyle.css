@@ -1,7 +1,13 @@
-img{
-    border: 20px solid black;
-    border-radius: 160px;
+.image1{
+    border: 5px dotted darkred;
+    border-radius: 50px;
     width: 20%;
+}
+.image2 {
+    border: 5px black;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 20px;
 }
 h1{
     font-family: Georgia, Times, serif;
@@ -20,3 +26,14 @@ Ul{
     border: 1px dotted darkred;
     width: 30%;
 }
+
+.star-list {
+    list-style-type: none;
+}
+
+.star-list li::before {
+    content: "★";
+    margin-right: 10px;
+    color: gold;
+}
+
