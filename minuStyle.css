@@ -9,3 +9,14 @@ h1{
     color: darkred;
     text-align: center;
 }
+
+body{
+    font-family: Georgia, Times, serif;
+    background-color: beige;
+}
+Ul{
+    list-style-type: stars;
+    margin: 5%;
+    border: 1px dotted darkred;
+    width: 30%;
+}
