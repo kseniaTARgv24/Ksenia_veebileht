@@ -3,3 +3,9 @@ img{
     border-radius: 160px;
     width: 20%;
 }
+h1{
+    font-family: Georgia, Times, serif;
+    letter-spacing: 2px;
+    color: darkred;
+    text-align: center;
+}
